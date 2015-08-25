@@ -8,6 +8,7 @@ output: html_document
 
 ```{r}
 library(ggplot2)
+?diamonds
 data(diamonds)
 str(diamonds)
 dim(diamonds)
@@ -25,7 +26,7 @@ Answer: 10
 Answer: 3
 
 ## What letter represents the best color for a diamong?
-Answer: G
+Answer: D based on defination of ?diamonds (colour. diamond colour, from J (worst) to D (best))
 
 
 
