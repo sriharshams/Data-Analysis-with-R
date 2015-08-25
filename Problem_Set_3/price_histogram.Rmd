@@ -1,0 +1,36 @@
+# Create a histogram of the price of
+# all the diamonds in the diamond data set.
+
+# TYPE YOUR CODE BELOW THE LINE
+# =======================================
+
+```{r}
+library(ggplot2)
+names(diamonds)
+qplot(x=diamonds$price, data=diamonds,
+      xlab="Diamonds price", binwidth=600, 
+      color=I('black'), fill=I('#099DD9'),
+      xlim=c(0, 20000))
+```
+### Describe the shape and center of the price distribution.
+- Long tailed distribution
+
+### Median
+```{r}
+median(diamonds$price)
+```
+- 2401
+
+### Mean
+
+```{r}
+mean(diamonds$price)
+```
+- 3932.8
+
+### Summary statastics
+```{r}
+summary(diamonds$price)
+```
+
+
