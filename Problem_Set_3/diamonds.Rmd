@@ -1,0 +1,38 @@
+---
+title: "Problem_Set_3"
+author: "Sriharsha M S"
+date: "Tuesday, August 25, 2015"
+output: html_document
+---
+
+
+```{r}
+library(ggplot2)
+data(diamonds)
+str(diamonds)
+dim(diamonds)
+summary(diamonds)
+summary(diamonds$color)
+```
+
+### How many observatoins are in the data set?
+Answer: 53940
+
+### How many variable are in the data set?
+Answer: 10
+
+## How many ordered factors are in the data set
+Answer: 3
+
+## What letter represents the best color for a diamong?
+Answer: G
+
+
+
+
+When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+
+You can also embed plots, for example:
+
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
